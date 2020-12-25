@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    background-color: #e2c3df;
+    /* background: url(../image/5c921b2cb82c9_alarm_clock_art_background_1037993.jpeg) no-repeat center top fixed; */
+    /* background-size: cover; */
+  
+}
+.box {
+  display: block;
+  margin: 0 auto;
+  text-align: center;   
+}
+.title {
+  font-size: 28px;
+  color: #541663;
+  text-transform: uppercase;
+}
+.value {
+  font-size: 24px;
+  color: #7a6a76;
+}
+.label {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #7a6a76;
+}
